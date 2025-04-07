@@ -4,6 +4,8 @@
 
 The **Simple Tabs** project provides a basic and clean implementation of tab navigation using HTML, CSS, and JavaScript. It allows users to easily switch between different content sections by clicking on tab labels. This is a lightweight solution for managing multiple content views on a webpage.
 
+You can view the project details and roadmap here: [Simple Tabs Roadmap](https://roadmap.sh/projects/simple-tabs)
+
 ## Features
 
 - **Four tabs**: Switch between four different content sections.
