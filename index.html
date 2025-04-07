@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Tabs</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tabs">
+        <input type="radio" name="tabs" id="tab1" class="tab-radio" checked />
+        <label for="tab1" class="tab-label">First Tab</label>
+
+        <input type="radio" name="tabs" id="tab2" class="tab-radio" />
+        <label for="tab2" class="tab-label">Second Tab</label>
+
+        <input type="radio" name="tabs" id="tab3" class="tab-radio" />
+        <label for="tab3" class="tab-label">Third Tab</label>
+
+        <input type="radio" name="tabs" id="tab4" class="tab-radio" />
+        <label for="tab4" class="tab-label">Fourth Tab</label>
+      </div>
+
+      <div class="description">
+        Clicking each tab should hide the content of the other tab and show the
+        content of clicked tab. By default, enable the first tab.
+      </div>
+
+      <!-- Contenus des onglets -->
+      <div id="content1" class="tab-content">
+        First Tab content to be displayed here.
+      </div>
+
+      <div id="content2" class="tab-content">
+        Second Tab content to be displayed here.
+      </div>
+
+      <div id="content3" class="tab-content">
+        Third Tab content to be displayed here.
+      </div>
+
+      <div id="content4" class="tab-content">
+        Fourth Tab content to be displayed here.
+      </div>
+
+      <div class="note">
+        Add some dummy content or just add a simple text showing the tab
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
